@@ -4,7 +4,7 @@ const Article = require('./models/article')
 const articleRouter = require('./routes/articles')
 const methodOverride = require('method-override');
 const app = express()
-const port = 5000
+
 
 mongoose.connect('mongodb://localhost/blogss', 
                 { useNewUrlParser: true, 
@@ -23,6 +23,7 @@ app.get('/', async (req, res) => {
 
 app.use('/articles', articleRouter)
 
-app.listen(port, () => {
-    console.log(`We're live on port ${port}!`)
-})
+// const port = 5000
+// app.listen(port, () => {
+//     console.log(`We're live on port ${port}!`)
+// })
