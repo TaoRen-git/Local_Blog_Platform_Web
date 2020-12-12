@@ -4,7 +4,7 @@ const Article = require('./models/article')
 const articleRouter = require('./routes/articles')
 const methodOverride = require('method-override');
 const app = express()
-const port = 5001
+const port = 5000
 
 mongoose.connect('mongodb://localhost/blogss', 
                 { useNewUrlParser: true, 
