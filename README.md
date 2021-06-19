@@ -1,7 +1,7 @@
-# Local Blog
+# LocalBlog
 
 ## Description
-This is a local blog.
+LocalBlog is a blog platform that stores data locally that allows users to create new blogs, view, edit, and delete existing blogs. The platform will utilize the MERN stack (MongoDB, Express, React, Node.js) to implement all core functions, based on JavaScript and EJS.
 
 ---
 ## Getting Started
