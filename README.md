@@ -10,7 +10,7 @@ LocalBlog is a blog platform that stores data locally that allows users to creat
 1. Download and install [Node.js](https://nodejs.org/)
 2. Open terminal and access the **Localblog** folder
 
-### Running the blog
+### Running the platform
 1. Run this command under **Localblog** folder
     ```bash
     npm run devStart
@@ -19,45 +19,39 @@ LocalBlog is a blog platform that stores data locally that allows users to creat
     ```HTML
     http://localhost:5000/
     ```
-4. <details><summary>Demo</summary>
     <center>
         <img alin = "center" src="./gif/Run blog.gif">
     </center>
-</details>
 
-### Creating new blog
+#### Creating new blog
 1. Click button ```New Blog```
 2. Write title, description, and markdown
 3. Click button ```Save```
-4. <details><summary>Demo</summary>
+
     <center>
         <img alin = "center" src="./gif/Create blog.gif">
     </center>
-</details>
 
-### Reading blog
+#### Reading blog
 1. Click button ```Read Blog```
 2. Click button ```All Blogs```
-4. <details><summary>Demo</summary>
+
     <center>
         <img alin = "center" src="./gif/Read blog.gif">
     </center>
-</details>
 
-### Editing blog
+#### Editing blog
 1. Click button ```Edit Blog```
 2. Edit title, description, or markdown
 2. Click button ```Save```
-4. <details><summary>Demo</summary>
+
     <center>
         <img alin = "center" src="./gif/Edit blog.gif">
     </center>
-</details>
 
-### Deleting blog
+#### Deleting blog
 1. Click button ```Delete Blog```
-4. <details><summary>Demo</summary>
+
     <center>
         <img alin = "center" src="./gif/Delete blog.gif">
     </center>
-</details>
